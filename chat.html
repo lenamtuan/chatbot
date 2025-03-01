@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Welcome to NICCARE</title>
+</head>
+<body>
+  
+  <div id="webchat-container" style="position: relative; width: 100%; height: 100%;">
+    <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+    <script>
+      window.botpress.on("webchat:ready", () => {
+        window.botpress.open();
+      });
+  
+      window.botpress.init({
+        "botId": "20250224100730-QKWWS92N",
+        "configuration": {
+          "botName": "Care Buddy Chat",
+          "botAvatar": "https://i.postimg.cc/44rh1Nm4/chatbotdoctor.jpg",
+          "website": {},
+          "email": {},
+          "phone": {},
+          "termsOfService": {},
+          "privacyPolicy": {},
+          "color": "#3bf5a1",
+          "variant": "solid",
+          "themeMode": "light",
+          "fontFamily": "inter",
+          "radius": 1
+        },
+        "clientId": "be4ff9d0-5b9c-4d26-b7c5-5cc8bb6cc3a2",
+        "user": {
+            "data": {
+            "firstName": "NAMTUAn",
+            "lastName": "NamTUan",
+            "email": "NamTuan@gmail.com",
+            "user_id":"codekanhihad"
+            }
+        }
+      });
+    </script>
+    <style>
+      #webchat-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+      .bpFab {
+        display: none;
+      }
+      .bpWebchat {
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+      }
+    </style>
+  </div>  
+      
+</body>
+</html>
+
+
+
